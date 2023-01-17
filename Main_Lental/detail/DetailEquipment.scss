@@ -1,0 +1,49 @@
+#detail-equipment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 218px;
+  img {
+    width: 160px;
+    height: 160px;
+
+    border-radius: 8px;
+    border: 1px solid black;
+
+    margin-right: 24px;
+  }
+
+  #information {
+    // text-align: left;
+    color: #676767;
+
+    span {
+      font-size: 20px;
+      font-weight: 700;
+      color: #181818;
+    }
+
+    .equipment-detail {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .equipment-code {
+      // width: 230px;
+      font-weight: 700;
+    }
+  }
+
+  button {
+    width: 130px;
+    height: 48px;
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #fafafa;
+
+    border: none;
+    border-radius: 8px;
+    background-color: #9785cb;
+  }
+}
