@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.N_button {
+    display: flex;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+
+button[id="N_myList"] {
+    width: 119px;
+    height: 24px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.005em;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #676767;
+}
+
+button[id="N_myTendinous"] {
+    width: 119px;
+    height: 24px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.005em;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #676767;
+
+}
+
+button[id="N_management"] {
+    width: 119px;
+    height: 24px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.005em;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #676767;
+}
+
+.table {
+    border-collapse: collapse;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    width: 1140px;
+    // height: 564px;
+}
+
+.list_date, .list_title, .list_department, .list_name, .list_code, .list_state {
+    height: 32px;
+}
+
+.td_date {
+    width: 100px;
+}
+
+.td_title {
+    width: 130px;
+}
+
+.td_department, .td_code, .td_state {
+    width: 200px;
+}
+
+.td_date, .td_title, .td_department, .td_name, .td_code, .td_state {
+    height: 48px;
+    border-bottom: 2px solid rgba(103, 103, 103, 0.3);
+    color: #676767;
+}

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from './components/Login/Login';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Signup from './components/Signup/Signup';
+
+import LentalList from './components/Main_Lental/LentalList';
+
+import MyLental from './components/Main_MyLental/MyLental';
+import Tendious from './components/Main_MyLental/Tendious';
+import Management from './components/Main_MyLental/Management';
+
+import EditInfor from './components/Main_EditInfor/EditInfor';
+
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/lentalList" element={<LentalList />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/mylental" element={<MyLental />} />
+      <Route path="/tendious" element={<Tendious />} />
+      <Route path="/management" element={<Management />} />
+      <Route path="/editInfor" element={<EditInfor />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
